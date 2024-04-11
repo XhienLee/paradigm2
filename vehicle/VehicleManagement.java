@@ -41,7 +41,7 @@ public class VehicleManagement {
                // delete vehicle
                System.out.print("Enter the index of the vehicle to delete: ");
                int index = scanner.nextInt();
-               vehicleList.remove(index);
+               vehicleList.remove(index - 1);
                System.out.println("Vehicle deleted successfully!\n\n");
                break;
             case 4:
